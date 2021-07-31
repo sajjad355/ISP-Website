@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 30, 2021 at 07:45 PM
+-- Generation Time: Jul 31, 2021 at 11:21 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 8.0.8
 
@@ -52,7 +52,12 @@ CREATE TABLE `complain` (
 
 INSERT INTO `complain` (`Id`, `Name`, `MobileNo`, `Date`, `AnyServiceProblem`, `AnyServiceProblemDesc`, `InternetBrowserProblem`, `DownloadProblem`, `FacebookBufferProblem`, `LineDropTime`, `PackageWiseDownloadOk`, `HappyWithService`, `PubgFreefirePing`, `FtpServerProblem`, `AndroidIosAppProblem`, `CommentAboutCompany`) VALUES
 (4, 'সাজ্জাদুর রহমান', '০১৩১৮৯৭৯০১৯', '2021-07-30 10:21:35', 'হ্যাঁ', 'পাবজি খেলতে পারছি না', 'হ্যাঁ', 'হ্যাঁ', 'হ্যাঁ', 'রাতে', 'হ্যাঁ', 'না', '400', 'না', 'না', 'Need to provide more speed'),
-(5, 'রায়হান', '০১৩১৮৯৭৯০১৯', '2021-07-30 10:21:35', 'না', 'ফ্রি ফায়ার খেলতে পারছি না', 'না', 'না', 'হ্যাঁ', 'সন্ধ্যায়', 'হ্যাঁ', 'হ্যাঁ', '400', 'হ্যাঁ', 'হ্যাঁ', 'Net slow');
+(5, 'রায়হান', '০১৩১৮৯৭৯০১৯', '2021-07-30 10:21:35', 'না', 'ফ্রি ফায়ার খেলতে পারছি না', 'না', 'না', 'হ্যাঁ', 'সন্ধ্যায়', 'হ্যাঁ', 'হ্যাঁ', '400', 'হ্যাঁ', 'হ্যাঁ', 'Net slow'),
+(6, 'Raihan', '01788034452', '2021-07-31 03:31:45', 'Yes', 'sds', 'Yes', '--------------------------', 'No', 'সবসময়', 'Yes', 'ssfs', 'No', 'No', '--------------------------', 'sfsfs'),
+(7, 'sajjadurrahman3434@gmail.com', '01788034452', '2021-07-31 03:33:31', 'Yes', '', 'Yes', '--------------------------', 'Yes', 'রাতে', 'No', 'aaad', 'Yes', 'Yes', '--------------------------', 'adad'),
+(8, 'swammia908@gmail.com', '01788034452', '2021-07-31 03:35:54', 'না', 'sasda', 'হ্যাঁ', '--------------------------', 'না', 'রাতে', 'না', 'adada', 'হ্যাঁ', 'Yes', '--------------------------', 'adadad'),
+(9, 'Abu Hanif Rahil', '01788034452', '2021-07-31 07:57:58', 'হ্যাঁ', 'adada', 'না<', '--------------------------', 'হ্যাঁ', 'রাতে', 'না', 'adada', 'না<', 'হ্যাঁ', '--------------------------', 'adada'),
+(10, 'sodjadjaljalfafasfaf', '01788034452', '2021-07-31 08:06:55', 'হ্যাঁ', 'adada', 'হ্যাঁ', '--------------------------', 'না', 'দিনে', 'না', 'adada', 'না<', 'না', 'হ্যাঁ', 'dadadada');
 
 -- --------------------------------------------------------
 
@@ -74,7 +79,9 @@ CREATE TABLE `contact` (
 --
 
 INSERT INTO `contact` (`Id`, `Name`, `MobileNumber`, `Email`, `Message`, `TimeStamp`) VALUES
-(1, 'Sajjad', '01780034452', 'raihanul@gmail.com', 'Khub ii Problem', '2021-07-30 17:17:07');
+(1, 'Sajjad', '01780034452', 'raihanul@gmail.com', 'Khub ii Problem', '2021-07-30 17:17:07'),
+(3, 'Md. Raihanul Islam', '01780034452', 'swammia908@gmail.com', 'adasdadad', '2021-07-31 07:55:04'),
+(4, 'Md. Raihanul Islam', '01780034452', 'swammia908@gmail.com', 'dfwfwregferfwefe', '2021-07-31 07:58:21');
 
 --
 -- Indexes for dumped tables
@@ -100,13 +107,13 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT for table `complain`
 --
 ALTER TABLE `complain`
-  MODIFY `Id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `Id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `contact`
 --
 ALTER TABLE `contact`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
