@@ -128,34 +128,34 @@
                         </div>
                         <div class="box-body overflow-scroll">
                               <div class="order-owner">
-                                <div class="col-4"> <span> Message No. :</span> </div>
-                                <div class="col-8"><span><?php echo $row["Id"]; ?></span></div>
+                                <div class="col-5"> <span> Message No. :</span> </div>
+                                <div class="col-7"><span><?php echo $row["Id"]; ?></span></div>
                                                  
                               </div>
                               <div class="order-owner">
-                                <div class="col-4"> <span> Name :</span> </div>
-                                <div class="col-8"><span><?php echo $row["Name"]; ?></span></div>
+                                <div class="col-5"> <span> Name :</span> </div>
+                                <div class="col-7"><span><?php echo $row["Name"]; ?></span></div>
                                                  
                               </div>
                               <div class="order-owner">
-                                <div class="col-4"> <span> Mobile Number :</span> </div>
-                                <div class="col-8"><span><?php echo $row["MobileNumber"]; ?></span></div>
+                                <div class="col-5"> <span> Mobile Number :</span> </div>
+                                <div class="col-7"><span><?php echo $row["MobileNumber"]; ?></span></div>
                                                  
                               </div>
                               <div class="order-owner">
-                                <div class="col-4"> <span> Email:</span> </div>
-                                <div class="col-8"><span><?php echo $row["Email"]; ?></span></div>
+                                <div class="col-5"> <span> Email:</span> </div>
+                                <div class="col-7"><span><?php echo $row["Email"]; ?></span></div>
                                                  
                               </div>
 
                               <div class="order-owner">
-                                <div class="col-4"> <span> Time Stamp :</span> </div>
-                                <div class="col-8"><span><?php echo $row["TimeStamp"]; ?></span></div>
+                                <div class="col-5"> <span> Time Stamp :</span> </div>
+                                <div class="col-7"><span><?php echo $row["TimeStamp"]; ?></span></div>
                                                  
                               </div>
                               <div class="order-owner">
-                                <div class="col-4"> <span> Message :</span> </div>
-                                <div class="col-8"><span><?php echo $row["Message"]; ?></span></div>
+                                <div class="col-5"> <span> Message :</span> </div>
+                                <div class="col-7"><span><?php echo $row["Message"]; ?></span></div>
                                                  
                               </div>
                              

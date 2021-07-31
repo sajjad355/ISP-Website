@@ -128,90 +128,90 @@
              </div>
              <div class="box-body overflow-scroll">
                    <div class="order-owner">
-                     <div class="col-4"> <span> অভিযোগ নম্বর -</span> </div>
-                     <div class="col-8"><span><?php echo $row["Id"]; ?></span></div>
+                     <div class="col-5"> <span> অভিযোগ নম্বর -</span> </div>
+                     <div class="col-7"><span><?php echo $row["Id"]; ?></span></div>
                                       
                    </div>
                    <div class="order-owner">
-                     <div class="col-4"> <span> অভিযোগকারীর নাম -</span> </div>
-                     <div class="col-8"><span><?php echo $row["Name"]; ?></span></div>
+                     <div class="col-5"> <span> অভিযোগকারীর নাম -</span> </div>
+                     <div class="col-7"><span><?php echo $row["Name"]; ?></span></div>
                                       
                    </div>
                    <div class="order-owner">
-                     <div class="col-4"> <span> মোবাইল নাম্বার -</span> </div>
-                     <div class="col-8"><span><?php echo $row["MobileNo"]; ?></span></div>
+                     <div class="col-5"> <span> মোবাইল নাম্বার -</span> </div>
+                     <div class="col-7"><span><?php echo $row["MobileNo"]; ?></span></div>
                                       
                    </div>
                    <div class="order-owner">
-                     <div class="col-4"> <span> অভিযোগের সময় -</span> </div>
-                     <div class="col-8"><span><?php echo $row["Date"]; ?></span></div>
+                     <div class="col-5"> <span> অভিযোগের সময় -</span> </div>
+                     <div class="col-7"><span><?php echo $row["Date"]; ?></span></div>
                                       
                    </div>
 
                    <div class="order-owner">
-                     <div class="col-4"> <span> আমাদের সার্ভিস এ কোনো সমস্যা পাচ্ছেন কি? </span> </div>
-                     <div class="col-8"><span><?php echo $row["AnyServiceProblem"]; ?></span></div>
+                     <div class="col-5"> <span> আমাদের সার্ভিস এ কোনো সমস্যা পাচ্ছেন কি? </span> </div>
+                     <div class="col-7"><span><?php echo $row["AnyServiceProblem"]; ?></span></div>
                                       
                    </div>
                    <div class="order-owner">
-                     <div class="col-4"> <span> কি কি সমস্যা পাচ্ছেন?</span> </div>
-                     <div class="col-8"><span><?php echo $row["AnyServiceProblemDesc"]; ?></span></div>
+                     <div class="col-5"> <span> কি কি সমস্যা পাচ্ছেন?</span> </div>
+                     <div class="col-7"><span><?php echo $row["AnyServiceProblemDesc"]; ?></span></div>
                                       
                    </div>
                    <div class="order-owner">
-                     <div class="col-4"> <span> ইন্টারনেট ব্রাউজ করতে কোনো সমস্যা হয়, ইন্টারনেট সাইট গুলো ওপেন হতে অনেক দেরি হয়? </span> </div>
-                     <div class="col-8"><span><?php echo $row["InternetBrowserProblem"]; ?></span></div>
+                     <div class="col-5"> <span> ইন্টারনেট ব্রাউজ করতে কোনো সমস্যা হয়, ইন্টারনেট সাইট গুলো ওপেন হতে অনেক দেরি হয়? </span> </div>
+                     <div class="col-7"><span><?php echo $row["InternetBrowserProblem"]; ?></span></div>
                                       
                    </div>
              
 
                    <div class="order-owner">
-                     <div class="col-4"> <span> ফেইসবুক এ ভিডিও চালালে কি বাফার করে? </span> </div>
-                     <div class="col-8"><span><?php echo $row["FacebookBufferProblem"]; ?></span></div>
+                     <div class="col-5"> <span> ফেইসবুক এ ভিডিও চালালে কি বাফার করে? </span> </div>
+                     <div class="col-7"><span><?php echo $row["FacebookBufferProblem"]; ?></span></div>
                                       
                    </div>
                    <div class="order-owner">
-                     <div class="col-4"> <span> কোন টাইম এ লাইন ড্রপ করে? </span> </div>
-                     <div class="col-8"><span><?php echo $row["LineDropTime"]; ?></span></div>
+                     <div class="col-5"> <span> কোন টাইম এ লাইন ড্রপ করে? </span> </div>
+                     <div class="col-7"><span><?php echo $row["LineDropTime"]; ?></span></div>
                                       
                    </div>
                    <div class="order-owner">
-                     <div class="col-4"> <span> প্যাকেজ ওয়াইজ ডাউনলোড আপলোড স্পিড কি ঠিক আছে? </span> </div>
-                     <div class="col-8"><span><?php echo $row["PackageWiseDownloadOk"]; ?></span></div>
+                     <div class="col-5"> <span> প্যাকেজ ওয়াইজ ডাউনলোড আপলোড স্পিড কি ঠিক আছে? </span> </div>
+                     <div class="col-7"><span><?php echo $row["PackageWiseDownloadOk"]; ?></span></div>
                                       
                    </div>
                    <div class="order-owner">
-                     <div class="col-4"> <span> আমাদের সার্ভিস ব্যবহার করে আপনি কতটুকু সন্তুষ্ট ?  </span> </div>
-                     <div class="col-8"><span><?php echo $row["HappyWithService"]; ?></span></div>
-                                      
-                   </div>
-
-                   <div class="order-owner">
-                     <div class="col-4"> <span> PUBG/FreeFire এ PING আপ-ডাউন করে কি না?</span> </div>
-                     <div class="col-8"><span><?php echo $row["DownloadProblem"]; ?></span></div>
+                     <div class="col-5"> <span> আমাদের সার্ভিস ব্যবহার করে আপনি কতটুকু সন্তুষ্ট ?  </span> </div>
+                     <div class="col-7"><span><?php echo $row["HappyWithService"]; ?></span></div>
                                       
                    </div>
 
                    <div class="order-owner">
-                     <div class="col-4"> <span> PUBG/FreeFire এ PING কত ?</span> </div>
-                     <div class="col-8"><span><?php echo $row["PubgFreefirePing"]; ?></span></div>
+                     <div class="col-5"> <span> PUBG/FreeFire এ PING আপ-ডাউন করে কি না?</span> </div>
+                     <div class="col-7"><span><?php echo $row["DownloadProblem"]; ?></span></div>
+                                      
+                   </div>
+
+                   <div class="order-owner">
+                     <div class="col-5"> <span> PUBG/FreeFire এ PING কত ?</span> </div>
+                     <div class="col-7"><span><?php echo $row["PubgFreefirePing"]; ?></span></div>
                                       
                    </div>
 
 
                    <div class="order-owner">
-                     <div class="col-4"> <span> FTP সার্ভার ব্যাবহারে কোনো সমস্যা আছে কি? </span> </div>
-                     <div class="col-8"><span><?php echo $row["FtpServerProblem"]; ?></span></div>
+                     <div class="col-5"> <span> FTP সার্ভার ব্যাবহারে কোনো সমস্যা আছে কি? </span> </div>
+                     <div class="col-7"><span><?php echo $row["FtpServerProblem"]; ?></span></div>
                                       
                    </div>
                    <div class="order-owner">
-                     <div class="col-4"> <span> ইউটিউব ব্রাউজ এবং ডাউনলোড এ কোনো সমস্যা আছে ? </span> </div>
-                     <div class="col-8"><span><?php echo $row["AndroidIosAppProblem"]; ?></span></div>
+                     <div class="col-5"> <span> ইউটিউব ব্রাউজ এবং ডাউনলোড এ কোনো সমস্যা আছে ? </span> </div>
+                     <div class="col-7"><span><?php echo $row["AndroidIosAppProblem"]; ?></span></div>
                                       
                    </div>
                    <div class="order-owner">
-                     <div class="col-4"> <span> আমাদের কোম্পানি সম্পর্কে আপনার মূল্যবান মতামত দিন - </span> </div>
-                     <div class="col-8"><span><?php echo $row["CommentAboutCompany"]; ?></span></div>
+                     <div class="col-5"> <span> আমাদের কোম্পানি সম্পর্কে আপনার মূল্যবান মতামত দিন - </span> </div>
+                     <div class="col-7"><span><?php echo $row["CommentAboutCompany"]; ?></span></div>
                                       
                    </div>
                    
