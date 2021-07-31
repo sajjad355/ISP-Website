@@ -1,0 +1,110 @@
+*{ margin:0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+a{ text-decoration: none;}
+
+a:hover{ text-decoration: none;}
+
+li{ list-style: none;}
+
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+
+}
+i{
+    color: #2fccd0;
+}
+.extra-div h2, .servicediv h2{
+    font-size: 0.9rem;
+    margin:20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+.submitbutton{
+    border: 1px solid  #fff;
+    background:#16c9f6;;
+    border-radius: 1000px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.submitbutton:hover{
+    color: #50d1c0;
+    background:#fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+}
+
+
+.navbar::before{
+    content: "";
+    position:absolute;
+    top:0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+
+    z-index: -1;
+    background: #16c9f6 10%;
+}
+
+.nav-item a{
+    color: #fff!important;
+    font-weight: bold;
+}
+
+
+
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background: #00abff;
+    position: relative;
+
+}
+.footersection p{
+    color: #fff;
+
+}
+
+.footersection li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+
+}
+
+.footersection h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 1.2rem!important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+
+
+}
+
+@media(max-width:768px){
+    .sl{
+        margin-top: 50px;;
+    }
+
+    
+}
+
+
