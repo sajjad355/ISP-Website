@@ -7,52 +7,102 @@
           if(!empty($_POST['name'])){
             $name = mysqli_real_escape_string($conn,$_POST['name']);
           }
+          else{
+            $name= "পূরণ করা হয় নি";
+          }
+
           if(!empty($_POST['contactNumber'])){
             $contactNumber = mysqli_real_escape_string($conn,$_POST['contactNumber']);
           }
+          else{
+            $contactNumber= "পূরণ করা হয় নি";
+          }
+
           if(!empty($_POST['problem'])){
             $problem = mysqli_real_escape_string($conn,$_POST['problem']);
           }
+          else{
+            $problem= "পূরণ করা হয় নি";
+          }
+
           if(!empty($_POST['pubg'])){
             $pubg = mysqli_real_escape_string($conn,$_POST['pubg']);
+          }
+          else{
+            $pubg= "পূরণ করা হয় নি";
           }
 
           if(!empty($_POST['pubg1'])){
             $pubg1 = mysqli_real_escape_string($conn,$_POST['pubg1']);
           }
-
-
+          else{
+            $pubg1= "পূরণ করা হয় নি";
+          }
 
           if(!empty($_POST['messageProblem'])){
             $messageProblem = mysqli_real_escape_string($conn,$_POST['messageProblem']);
           }
+          else{
+            $messageProblem= "পূরণ করা হয় নি";
+          }
+
           if(!empty($_POST['internetBrowingProblem'])){
             $internetBrowingProblem = mysqli_real_escape_string($conn,$_POST['internetBrowingProblem']);
           }
+          else{
+            $internetBrowingProblem= "পূরণ করা হয় নি";
+          }
+
           if(!empty($_POST['facebookBuffer'])){
             $facebookBuffer = mysqli_real_escape_string($conn,$_POST['facebookBuffer']);
           }
+          else{
+            $facebookBuffer= "পূরণ করা হয় নি";
+          }
+
           if(!empty($_POST['YoutubeBrowingProblem'])){
             $YoutubeBrowingProblem = mysqli_real_escape_string($conn,$_POST['YoutubeBrowingProblem']);
           }
-
+          else{
+            $YoutubeBrowingProblem= "পূরণ করা হয় নি";
+          }
 
 
           if(!empty($_POST['dropLineTime'])){
             $dropLineTime = mysqli_real_escape_string($conn,$_POST['dropLineTime']);
           }
+          else{
+            $dropLineTime= "পূরণ করা হয় নি";
+          }
+
           if(!empty($_POST['ftp'])){
             $ftp = mysqli_real_escape_string($conn,$_POST['ftp']);
           }
+          else{
+            $ftp= "পূরণ করা হয় নি";
+          }
+
           if(!empty($_POST['messageSatisfy'])){
             $messageSatisfy = mysqli_real_escape_string($conn,$_POST['messageSatisfy']);
           }
+          else{
+            $messageSatisfy= "পূরণ করা হয় নি";
+          }
+
           if(!empty($_POST['messageComment'])){
             $messageComment = mysqli_real_escape_string($conn,$_POST['messageComment']);
           }
+          else{
+            $messageComment= "পূরণ করা হয় নি";
+          }
+
           if(!empty($_POST['packageWiseSpeed'])){
             $packageWiseSpeed = mysqli_real_escape_string($conn,$_POST['packageWiseSpeed']);
           }
+          else{
+            $packageWiseSpeed= "পূরণ করা হয় নি";
+          }
+          
           $dt = new DateTime("now", new DateTimeZone('Asia/Dhaka'));
          
           $currDate=$dt->format('Y-m-d H:i:s');
