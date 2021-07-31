@@ -15,9 +15,11 @@
           }
          
 
-
           if(!empty($_POST['message'])){
             $message = mysqli_real_escape_string($conn,$_POST['message']);
+          }
+          else{
+            $message= "পূরণ করা হয় নি";
           }
          
 
@@ -507,8 +509,8 @@
     <!-- End area -->
     <section class="contactus" id="contactid">
       <div class="container headings text-center">
-        <h1 class="text-center font-weight-bold">CONTACT US</h1>
-        <p class="text-capitalize pt-1">We're Here To Help And Answer Any Question You Might Have. We Look Forward To Hearing From You <i style="font-size: 23px; color: white;" class="fa fa-smile-o" aria-hidden="true"></i> </p>
+        <h1 class="text-center font-weight-bold cut">CONTACT US</h1>
+        <p class="text-capitalize pt-1 cup">We're Here To Help And Answer Any Question You Might Have. We Look Forward To Hearing From You <i style="font-size: 23px; color: white;" class="fa fa-smile-o" aria-hidden="true"></i> </p>
       </div>
       <div class="container">
         <div class="row">
